@@ -1,0 +1,32 @@
+# Dracula color palette
+set $background   #282a36
+set $current_line #44475a
+set $selection    #44475a
+set $foreground   #f8f8f2
+set $comment      #6272a4
+set $cyan         #8be9fd
+set $green        #50fa7b
+set $orange       #ffb86c
+set $pink         #ff79c6
+set $purple       #bd93f9
+set $red          #ff5555
+set $yellow       #f1fa8c
+
+# Use Dracula for borders and background
+client.focused          $purple $purple $foreground $selection
+client.focused_inactive $current_line $current_line $foreground $background
+client.unfocused        $background $background $comment $background
+client.urgent           $red $red $foreground $red
+client.placeholder      $selection $selection $foreground $selection
+
+# Set border style and width for tiled windows
+default_border pixel 2
+
+# Set border style and width for floating windows
+default_floating_border pixel 2
+
+# Gaps
+gaps outer 0
+gaps inner 10
+smart_gaps off
+

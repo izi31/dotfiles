@@ -1,0 +1,11 @@
+### Startup Applications ###
+exec swww-daemon
+exec swaync
+exec Discord
+exec steam -silent
+exec /opt/piavpn/bin/pia-cilent --quiet
+
+### Bar Configuration ###
+bar { 
+     swaybar_command waybar
+}
