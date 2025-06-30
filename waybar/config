@@ -1,0 +1,22 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 30,
+    "margin": "0px 0px 0px 0px",
+
+    "modules-left": [
+        "hyprland/workspaces"
+    ],
+    "modules-center": [
+        "hyprland/window"
+    ],
+    "modules-right": [
+        "tray",
+        "custom/vpn",
+	"disk",
+        "pulseaudio",
+        "clock"
+    ],
+"include": ["~/.config/waybar/modules.json"],
+
+}
