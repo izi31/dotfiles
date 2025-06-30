@@ -1,0 +1,115 @@
+/* Dracula Color Palette Reference:
+   Background:   #282a36
+   Current Line: #44475a
+   Selection:    #44475a
+   Foreground:   #f8f8f2
+   Comment:      #6272a4
+   Cyan:         #8be9fd
+   Green:        #50fa7b
+   Orange:       #ffb86c
+   Pink:         #ff79c6
+   Purple:       #bd93f9
+   Red:          #ff5555
+   Yellow:       #f1fa8c
+*/
+
+/* Base styles */
+* {
+    font-family: "UbuntuMono Nerd Font", "Font Awesome 6 Free";
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 0;
+    padding: 0 5px;
+    color: #f8f8f2; /* Dracula foreground */
+    min-height: 0;
+    background: transparent;
+}
+
+#waybar {
+    margin: 0;
+    padding: 0;
+    background-color: #282a36; /* Dracula background */
+    color: #f8f8f2;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+}
+
+#window {
+    margin: 5px;
+    padding: 0 5px;
+}
+
+/* Workspaces */
+#workspaces {
+    padding: 0 10px;
+}
+
+#workspaces button {
+    background: transparent;
+    margin: 0 4px;
+    color: #f8f8f2;
+    border: none;
+}
+
+#workspaces button.focused {
+    background-color: #44475a;
+    border-bottom: 2px solid #bd93f9;
+}
+
+#workspaces button.active {
+    background-color: #6272a4;
+    border-bottom: 2px solid #8be9fd;
+}
+
+#workspaces button:hover {
+    background-color: #44475a;
+    border: 1px solid #bd93f9;
+}
+
+/* Module styles with Dracula accents */
+#disk {
+    color: #f1fa8c;
+    border-bottom: 3px solid #f1fa8c;
+    margin: 0 4px;
+    padding: 4px 8px;
+}
+
+#pulseaudio {
+    color: #8be9fd;
+    border-bottom: 3px solid #8be9fd;
+    margin: 0 4px;
+    padding: 4px 8px;
+}
+
+#battery {
+    color: #50fa7b;
+    border-bottom: 3px solid #50fa7b;
+    margin: 0 4px;
+    padding: 4px 8px;
+}
+
+#clock {
+    color: #ff5555;
+    border-bottom: 3px solid #ff5555;
+    min-width: 106px;
+    margin: 0 4px;
+    padding: 4px 8px;
+}
+
+/* VPN custom module */
+#custom-vpn {
+    background: #44475a;
+    color: #f8f8f2;
+    padding: 4px 8px;
+    margin: 0 4px;
+    border-radius: 6px;
+}
+
+#custom-vpn.vpn-on {
+    color: #50fa7b; /* Green */
+}
+
+#custom-vpn.vpn-off {
+    color: #ff5555; /* Red */
+}
+
