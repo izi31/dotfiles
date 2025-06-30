@@ -1,0 +1,7 @@
+include ~/.config/sway/startup
+include ~/.config/sway/power
+include ~/.config/sway/keybinds
+include ~/.config/sway/displays
+include ~/.config/sway/themes
+include ~/.config/sway/workspaces
+include ~/.config/sway/environment
