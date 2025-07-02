@@ -1,5 +1,0 @@
-### Power Management ###
-exec_always swayidle -w \
-  timeout 600 '~/.config/sway/scripts/lock_blur.sh' \
-  timeout 1200 'systemctl suspend' \
-  before-sleep '~/.config/sway/scripts/lock_blur.sh'
