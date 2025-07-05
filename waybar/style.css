@@ -1,0 +1,95 @@
+* {
+    font-family: "UbuntuMono Nerd Font", "Font Awesome 6 Free";
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 0;
+    padding: 0 5px;
+    color: #c0caf5; /* Tokyo Night foreground */
+/*    background: transparent; */
+}
+
+#waybar {
+    margin: 0;
+    padding: 0;
+    background-color: #1a1b26;
+    color: #c0caf5;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+}
+
+#window {
+    margin: 5px;
+    padding: 0 5px;
+}
+
+#workspaces {
+    padding: 0 10px;
+}
+
+#workspaces button {
+    background: transparent;
+    margin: 0 4px;
+    color: #c0caf5;
+    border: none;
+}
+
+#workspaces button.focused {
+    background-color: #3b4261;
+    border-bottom: 2px solid #bb9af7; /* Magenta */
+}
+
+#workspaces button.active {
+    background-color: #565f89; /* Active workspace */
+    border-bottom: 2px solid #7dcfff; /* Cyan */
+}
+
+#workspaces button:hover {
+    background-color: #3b4261;
+    border: 1px solid #bb9af7;
+}
+
+#disk {
+    color: #e0af68; /* Yellow */
+    border-bottom: 3px solid #e0af68;
+    margin: 0 4px;
+    padding: 4px 8px;
+}
+
+#pulseaudio {
+    color: #7dcfff; /* Cyan */
+    border-bottom: 3px solid #7dcfff;
+    margin: 0 4px;
+    padding: 4px 8px;
+}
+
+#battery {
+    color: #9ece6a; /* Green */
+    border-bottom: 3px solid #9ece6a;
+    margin: 0 4px;
+    padding: 4px 8px;
+}
+
+#clock {
+    color: #f7768e; /* Red */
+    border-bottom: 3px solid #f7768e;
+    min-width: 106px;
+    margin: 0 4px;
+    padding: 4px 8px;
+}
+
+#custom-vpn {
+    background: #3b4261;
+    color: #c0caf5;
+    padding: 4px 8px;
+    margin: 0 4px;
+    border-radius: 6px;
+}
+
+#custom-vpn.vpn-on {
+    color: #9ece6a; /* Green */
+}
+
+#custom-vpn.vpn-off {
+    color: #f7768e; /* Red */
+}
+

@@ -1,0 +1,12 @@
+### Startup Applications ###
+exec_always autotiling --splitratio 1.61 --limit 2
+exec mako
+exec swww-daemon
+exec Discord
+exec steam -silent
+exec ~/.config/sway/start-pia.sh
+
+### Bar Configuration ###
+bar { 
+     swaybar_command waybar
+}

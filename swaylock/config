@@ -1,0 +1,29 @@
+# Background color
+color=282a36
+
+# Ring and indicator
+indicator
+indicator-radius=100
+indicator-thickness=10
+
+# Colors
+inside-color=282a36
+ring-color=bd93f9
+line-color=44475a
+separator-color=282a36
+
+# Text colors
+text-color=f8f8f2
+key-hl-color=50fa7b     # Green on correct keypress
+bs-hl-color=ff5555      # Red when backspacing
+
+# Verification (right password being typed)
+ring-ver-color=50fa7b
+inside-ver-color=282a36
+text-ver-color=f8f8f2
+
+# Wrong password
+ring-wrong-color=ff5555
+inside-wrong-color=282a36
+text-wrong-color=f8f8f2
+

@@ -1,0 +1,22 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 34,
+    "margin": "0px 0px 0px 0px",
+
+    "modules-left": [
+        "sway/workspaces"
+    ],
+    "modules-center": [
+        "sway/window"
+    ],
+    "modules-right": [
+        "tray",
+        "custom/vpn",
+	"disk",
+        "pulseaudio",
+        "clock"
+    ],
+"include": ["~/.config/waybar/modules.json"],
+
+}
