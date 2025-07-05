@@ -1,0 +1,8 @@
+configuration {
+    modi: "drun,run,ssh";
+    font: "Ubuntu 12";
+    show-icons: true;
+}
+
+/* Change this path if you saved the theme elsewhere */
+@theme "~/.config/rofi/themes/Tokyonight.rasi"
