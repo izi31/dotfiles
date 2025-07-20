@@ -1,0 +1,24 @@
+# Font and text size
+font=Ubuntu 13
+
+# TokyoNight Dark theme-inspired colors
+background-color=#1a1b26   
+text-color=#c0caf5        
+border-color=#7aa2f7     
+progress-color=#9ece6a  
+
+# Layout and behavior
+width=400
+height=100
+border-size=2
+border-radius=6
+padding=10
+margin=10
+anchor=top-right
+
+# Notifications fade in/out
+default-timeout=5000
+icons=true
+
+# Dismiss with mouse click
+on-button-left=dismiss
